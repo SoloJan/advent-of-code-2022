@@ -15,6 +15,8 @@ public class AdventOfCodeAnswers {
         System.out.println(String.format("The answer to the day 2 exercise 2 is: %d", optimisedPlay("day2/input.txt")));
         System.out.println(String.format("The answer to the day 3 exercise 1 is: %d", findSumOfOverlappingItems("day3/input.txt")));
         System.out.println(String.format("The answer to the day 3 exercise 2 is: %d", findSumOfGroupBadges("day3/input.txt")));
+        System.out.println(String.format("The answer to the day 4 exercise 1 is: %d", findSumOfOverlappingItems("day4/input.txt")));
+        System.out.println(String.format("The answer to the day 4 exercise 2 is: %d", findSumOfGroupBadges("day4/input.txt")));
     }
 
 }
