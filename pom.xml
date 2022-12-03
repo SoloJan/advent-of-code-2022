@@ -12,7 +12,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jacoco.threshold>0.90</jacoco.threshold>
+        <jacoco.threshold>0.60</jacoco.threshold>
         <jacoco.dataFile>${project.build.directory}/coverage-reports/jacoco-ut.exec</jacoco.dataFile>
         <!--suppress UnresolvedMavenProperty -->
         <argLine>${surefireArgLine}</argLine>
