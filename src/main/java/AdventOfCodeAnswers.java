@@ -6,6 +6,9 @@ import static day3.RucksackOrganizer.findSumOfOverlappingItems;
 import static day3.RucksackOrganizer.findSumOfGroupBadges;
 import static day4.SectionCounter.countFullOverlap;
 import static day4.SectionCounter.countOverlap;
+import static day5.CrateMover.moveCrates;
+import static day5.CrateMover.moveMultipleCratesAtOnce;
+import static day5.StackFactory.createPuzzleInputStack;
 
 public class AdventOfCodeAnswers {
 
@@ -19,6 +22,8 @@ public class AdventOfCodeAnswers {
         System.out.println(String.format("The answer to the day 3 exercise 2 is: %d", findSumOfGroupBadges("day3/input.txt")));
         System.out.println(String.format("The answer to the day 4 exercise 1 is: %d", countFullOverlap("day4/input.txt")));
         System.out.println(String.format("The answer to the day 4 exercise 2 is: %d", countOverlap("day4/input.txt")));
+        System.out.println(String.format("The answer to the day 5 exercise 1 is: %s", moveCrates("day5/input.txt", createPuzzleInputStack())));
+        System.out.println(String.format("The answer to the day 5 exercise 2 is: %s", moveMultipleCratesAtOnce("day5/input.txt", createPuzzleInputStack())));
     }
 
 }
