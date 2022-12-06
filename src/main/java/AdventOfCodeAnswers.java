@@ -9,6 +9,8 @@ import static day4.SectionCounter.countOverlap;
 import static day5.CrateMover.moveCrates;
 import static day5.CrateMover.moveMultipleCratesAtOnce;
 import static day5.StackFactory.createPuzzleInputStack;
+import static day6.SignalDecoder.findStartOfPacket;
+import static day6.SignalDecoder.findStartOfMessage;
 
 public class AdventOfCodeAnswers {
 
@@ -24,6 +26,8 @@ public class AdventOfCodeAnswers {
         System.out.println(String.format("The answer to the day 4 exercise 2 is: %d", countOverlap("day4/input.txt")));
         System.out.println(String.format("The answer to the day 5 exercise 1 is: %s", moveCrates("day5/input.txt", createPuzzleInputStack())));
         System.out.println(String.format("The answer to the day 5 exercise 2 is: %s", moveMultipleCratesAtOnce("day5/input.txt", createPuzzleInputStack())));
+        System.out.println(String.format("The answer to the day 6 exercise 1 is: %d", findStartOfPacket("day6/input.txt")));
+        System.out.println(String.format("The answer to the day 6 exercise 2 is: %d", findStartOfMessage("day6/input.txt")));
     }
 
 }
