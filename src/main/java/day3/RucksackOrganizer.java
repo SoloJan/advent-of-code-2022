@@ -1,5 +1,7 @@
 package day3;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.List;
 
 import static java.lang.Character.isUpperCase;
@@ -7,6 +9,7 @@ import static util.FileUtil.readFilePerLine;
 import static util.StringUtil.getPositionInAlphabet;
 import static util.StringUtil.getOverlappingCharacter;
 
+@UtilityClass
 public class RucksackOrganizer {
 
     public static int findSumOfOverlappingItems(String filename){

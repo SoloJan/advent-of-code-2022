@@ -1,5 +1,7 @@
 package day1;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -7,6 +9,7 @@ import java.util.stream.Collectors;
 
 import static util.FileUtil.readFilePerLine;
 
+@UtilityClass
 public class Calories {
 
     public static int mostCalories(String filename) {

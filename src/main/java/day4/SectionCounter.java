@@ -1,9 +1,12 @@
 package day4;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.function.Predicate;
 
 import static util.FileUtil.readFilePerLine;
 
+@UtilityClass
 public class SectionCounter {
 
     public static long countFullOverlap(String fileName){

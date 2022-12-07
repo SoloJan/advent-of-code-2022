@@ -1,8 +1,11 @@
 package day5;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.HashMap;
 import java.util.Stack;
 
+@UtilityClass
 public class StackFactory {
 
     /**

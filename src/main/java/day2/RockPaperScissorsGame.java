@@ -1,9 +1,12 @@
 package day2;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.function.BiFunction;
 
 import static util.FileUtil.readFilePerLine;
 
+@UtilityClass
 public class RockPaperScissorsGame {
     
     public static int play(String filename) {

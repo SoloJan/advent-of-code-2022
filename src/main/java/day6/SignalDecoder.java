@@ -1,10 +1,10 @@
 package day6;
 
+import lombok.experimental.UtilityClass;
 import java.util.HashSet;
-
-
 import static util.FileUtil.readFilePerLine;
 
+@UtilityClass
 public class SignalDecoder {
 
     public static int findStartOfPacket(String filename){

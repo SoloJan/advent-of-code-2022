@@ -1,5 +1,7 @@
 package day5;
 
+import lombok.experimental.UtilityClass;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Stack;
@@ -9,6 +11,7 @@ import java.util.stream.Collectors;
 
 import static util.FileUtil.readFilePerLine;
 
+@UtilityClass
 public class CrateMover {
 
     public static String moveCrates(String fileName, HashMap<Integer, Stack<Character>> stacks){
